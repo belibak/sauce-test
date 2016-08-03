@@ -10,12 +10,12 @@ desired_cap = {
 }
 
 
-'''driver = webdriver.Remote(
+driver = webdriver.Remote(
    command_executor='http://fiovit:9418f0f6-032b-4234-af8a-0ddc896eb84e@ondemand.saucelabs.com:80/wd/hub',
-   desired_capabilities=desired_cap)'''
+   desired_capabilities=desired_cap)
 
 
-driver = webdriver.Firefox()
+#driver = webdriver.Firefox()
 
 driver.implicitly_wait(10)
 driver.get("https://uiv2.devpanel.com/")
