@@ -4,9 +4,10 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from time import sleep
 
 desired_cap = {
-    'platform': "Mac OS X 10.9",
-    'browserName': "chrome",
-    'version': "31",
+    'platform': "Windows 7",
+    'browserName': "opera",
+    'version': "11.64",
+    'name' : 'testjob1',
 }
 
 
@@ -28,4 +29,4 @@ passwd.send_keys("hello12344")
 passwd.submit()
 sleep(2)
 print(driver.title)
-driver.quit() 
+driver.quit()
