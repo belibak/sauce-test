@@ -5,9 +5,9 @@ from time import sleep
 
 desired_cap = {
     'platform': "Windows 7",
-    'browserName': "opera",
-    'version': "11.64",
-    'name' : 'testjob1',
+    'browserName': "firefox",
+    'version': "45",
+    'name' : 'testjob45',
 }
 
 
